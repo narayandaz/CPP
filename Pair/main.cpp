@@ -2,8 +2,7 @@
 #include <future>
 #include <utility>
 using namespace std;
-int main (int argc, char *argv[])
-{
+int main (int argc, char *argv[]){
   pair<int,string> v;
   v = make_pair(143, "Vaishu");
   cout<<v.first <<" "<<v.second<<endl;
